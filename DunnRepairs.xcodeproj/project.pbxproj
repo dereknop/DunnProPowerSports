@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B275E522C8554C80013F4B5 /* DunnRepairsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B275E512C8554C80013F4B5 /* DunnRepairsApp.swift */; };
+		8B275E542C8554C80013F4B5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B275E532C8554C80013F4B5 /* Persistence.swift */; };
+		8B275E572C8554C80013F4B5 /* DunnRepairs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B275E552C8554C80013F4B5 /* DunnRepairs.xcdatamodeld */; };
+		8B275E592C8554C80013F4B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B275E582C8554C80013F4B5 /* ContentView.swift */; };
+		8B275E5B2C8554CA0013F4B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B275E5A2C8554CA0013F4B5 /* Assets.xcassets */; };
+		8B275E5F2C8554CA0013F4B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B275E5E2C8554CA0013F4B5 /* Preview Assets.xcassets */; };
+		8B275E692C8554CA0013F4B5 /* DunnRepairsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B275E682C8554CA0013F4B5 /* DunnRepairsTests.swift */; };
+		8B275E732C8554CA0013F4B5 /* DunnRepairsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B275E722C8554CA0013F4B5 /* DunnRepairsUITests.swift */; };
+		8B275E752C8554CA0013F4B5 /* DunnRepairsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B275E742C8554CA0013F4B5 /* DunnRepairsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B275E652C8554CA0013F4B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B275E462C8554C80013F4B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B275E4D2C8554C80013F4B5;
+			remoteInfo = DunnRepairs;
+		};
+		8B275E6F2C8554CA0013F4B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B275E462C8554C80013F4B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B275E4D2C8554C80013F4B5;
+			remoteInfo = DunnRepairs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B275E4E2C8554C80013F4B5 /* DunnRepairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DunnRepairs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B275E512C8554C80013F4B5 /* DunnRepairsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DunnRepairsApp.swift; sourceTree = "<group>"; };
+		8B275E532C8554C80013F4B5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8B275E562C8554C80013F4B5 /* DunnRepairs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DunnRepairs.xcdatamodel; sourceTree = "<group>"; };
+		8B275E582C8554C80013F4B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B275E5A2C8554CA0013F4B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B275E5C2C8554CA0013F4B5 /* DunnRepairs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DunnRepairs.entitlements; sourceTree = "<group>"; };
+		8B275E5E2C8554CA0013F4B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B275E642C8554CA0013F4B5 /* DunnRepairsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DunnRepairsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B275E682C8554CA0013F4B5 /* DunnRepairsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DunnRepairsTests.swift; sourceTree = "<group>"; };
+		8B275E6E2C8554CA0013F4B5 /* DunnRepairsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DunnRepairsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B275E722C8554CA0013F4B5 /* DunnRepairsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DunnRepairsUITests.swift; sourceTree = "<group>"; };
+		8B275E742C8554CA0013F4B5 /* DunnRepairsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DunnRepairsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B275E4B2C8554C80013F4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B275E612C8554CA0013F4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B275E6B2C8554CA0013F4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B275E452C8554C80013F4B5 = {
+			isa = PBXGroup;
+			children = (
+				8B275E502C8554C80013F4B5 /* DunnRepairs */,
+				8B275E672C8554CA0013F4B5 /* DunnRepairsTests */,
+				8B275E712C8554CA0013F4B5 /* DunnRepairsUITests */,
+				8B275E4F2C8554C80013F4B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B275E4F2C8554C80013F4B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B275E4E2C8554C80013F4B5 /* DunnRepairs.app */,
+				8B275E642C8554CA0013F4B5 /* DunnRepairsTests.xctest */,
+				8B275E6E2C8554CA0013F4B5 /* DunnRepairsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B275E502C8554C80013F4B5 /* DunnRepairs */ = {
+			isa = PBXGroup;
+			children = (
+				8B275E512C8554C80013F4B5 /* DunnRepairsApp.swift */,
+				8B275E532C8554C80013F4B5 /* Persistence.swift */,
+				8B275E582C8554C80013F4B5 /* ContentView.swift */,
+				8B275E5A2C8554CA0013F4B5 /* Assets.xcassets */,
+				8B275E5C2C8554CA0013F4B5 /* DunnRepairs.entitlements */,
+				8B275E552C8554C80013F4B5 /* DunnRepairs.xcdatamodeld */,
+				8B275E5D2C8554CA0013F4B5 /* Preview Content */,
+			);
+			path = DunnRepairs;
+			sourceTree = "<group>";
+		};
+		8B275E5D2C8554CA0013F4B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B275E5E2C8554CA0013F4B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B275E672C8554CA0013F4B5 /* DunnRepairsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B275E682C8554CA0013F4B5 /* DunnRepairsTests.swift */,
+			);
+			path = DunnRepairsTests;
+			sourceTree = "<group>";
+		};
+		8B275E712C8554CA0013F4B5 /* DunnRepairsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B275E722C8554CA0013F4B5 /* DunnRepairsUITests.swift */,
+				8B275E742C8554CA0013F4B5 /* DunnRepairsUITestsLaunchTests.swift */,
+			);
+			path = DunnRepairsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B275E4D2C8554C80013F4B5 /* DunnRepairs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B275E782C8554CA0013F4B5 /* Build configuration list for PBXNativeTarget "DunnRepairs" */;
+			buildPhases = (
+				8B275E4A2C8554C80013F4B5 /* Sources */,
+				8B275E4B2C8554C80013F4B5 /* Frameworks */,
+				8B275E4C2C8554C80013F4B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DunnRepairs;
+			productName = DunnRepairs;
+			productReference = 8B275E4E2C8554C80013F4B5 /* DunnRepairs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B275E632C8554CA0013F4B5 /* DunnRepairsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B275E7B2C8554CA0013F4B5 /* Build configuration list for PBXNativeTarget "DunnRepairsTests" */;
+			buildPhases = (
+				8B275E602C8554CA0013F4B5 /* Sources */,
+				8B275E612C8554CA0013F4B5 /* Frameworks */,
+				8B275E622C8554CA0013F4B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B275E662C8554CA0013F4B5 /* PBXTargetDependency */,
+			);
+			name = DunnRepairsTests;
+			productName = DunnRepairsTests;
+			productReference = 8B275E642C8554CA0013F4B5 /* DunnRepairsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B275E6D2C8554CA0013F4B5 /* DunnRepairsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B275E7E2C8554CA0013F4B5 /* Build configuration list for PBXNativeTarget "DunnRepairsUITests" */;
+			buildPhases = (
+				8B275E6A2C8554CA0013F4B5 /* Sources */,
+				8B275E6B2C8554CA0013F4B5 /* Frameworks */,
+				8B275E6C2C8554CA0013F4B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B275E702C8554CA0013F4B5 /* PBXTargetDependency */,
+			);
+			name = DunnRepairsUITests;
+			productName = DunnRepairsUITests;
+			productReference = 8B275E6E2C8554CA0013F4B5 /* DunnRepairsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B275E462C8554C80013F4B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8B275E4D2C8554C80013F4B5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8B275E632C8554CA0013F4B5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8B275E4D2C8554C80013F4B5;
+					};
+					8B275E6D2C8554CA0013F4B5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8B275E4D2C8554C80013F4B5;
+					};
+				};
+			};
+			buildConfigurationList = 8B275E492C8554C80013F4B5 /* Build configuration list for PBXProject "DunnRepairs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B275E452C8554C80013F4B5;
+			productRefGroup = 8B275E4F2C8554C80013F4B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B275E4D2C8554C80013F4B5 /* DunnRepairs */,
+				8B275E632C8554CA0013F4B5 /* DunnRepairsTests */,
+				8B275E6D2C8554CA0013F4B5 /* DunnRepairsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B275E4C2C8554C80013F4B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B275E5F2C8554CA0013F4B5 /* Preview Assets.xcassets in Resources */,
+				8B275E5B2C8554CA0013F4B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B275E622C8554CA0013F4B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B275E6C2C8554CA0013F4B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B275E4A2C8554C80013F4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B275E522C8554C80013F4B5 /* DunnRepairsApp.swift in Sources */,
+				8B275E542C8554C80013F4B5 /* Persistence.swift in Sources */,
+				8B275E592C8554C80013F4B5 /* ContentView.swift in Sources */,
+				8B275E572C8554C80013F4B5 /* DunnRepairs.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B275E602C8554CA0013F4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B275E692C8554CA0013F4B5 /* DunnRepairsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B275E6A2C8554CA0013F4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B275E752C8554CA0013F4B5 /* DunnRepairsUITestsLaunchTests.swift in Sources */,
+				8B275E732C8554CA0013F4B5 /* DunnRepairsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B275E662C8554CA0013F4B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B275E4D2C8554C80013F4B5 /* DunnRepairs */;
+			targetProxy = 8B275E652C8554CA0013F4B5 /* PBXContainerItemProxy */;
+		};
+		8B275E702C8554CA0013F4B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B275E4D2C8554C80013F4B5 /* DunnRepairs */;
+			targetProxy = 8B275E6F2C8554CA0013F4B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B275E762C8554CA0013F4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B275E772C8554CA0013F4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8B275E792C8554CA0013F4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DunnRepairs/DunnRepairs.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DunnRepairs/Preview Content\"";
+				DEVELOPMENT_TEAM = 3V4GKY8N7Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DerekNoppinger.DunnRepairs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B275E7A2C8554CA0013F4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DunnRepairs/DunnRepairs.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DunnRepairs/Preview Content\"";
+				DEVELOPMENT_TEAM = 3V4GKY8N7Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DerekNoppinger.DunnRepairs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B275E7C2C8554CA0013F4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3V4GKY8N7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DerekNoppinger.DunnRepairsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DunnRepairs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DunnRepairs";
+			};
+			name = Debug;
+		};
+		8B275E7D2C8554CA0013F4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3V4GKY8N7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DerekNoppinger.DunnRepairsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DunnRepairs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DunnRepairs";
+			};
+			name = Release;
+		};
+		8B275E7F2C8554CA0013F4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3V4GKY8N7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DerekNoppinger.DunnRepairsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DunnRepairs;
+			};
+			name = Debug;
+		};
+		8B275E802C8554CA0013F4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3V4GKY8N7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DerekNoppinger.DunnRepairsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DunnRepairs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B275E492C8554C80013F4B5 /* Build configuration list for PBXProject "DunnRepairs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B275E762C8554CA0013F4B5 /* Debug */,
+				8B275E772C8554CA0013F4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B275E782C8554CA0013F4B5 /* Build configuration list for PBXNativeTarget "DunnRepairs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B275E792C8554CA0013F4B5 /* Debug */,
+				8B275E7A2C8554CA0013F4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B275E7B2C8554CA0013F4B5 /* Build configuration list for PBXNativeTarget "DunnRepairsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B275E7C2C8554CA0013F4B5 /* Debug */,
+				8B275E7D2C8554CA0013F4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B275E7E2C8554CA0013F4B5 /* Build configuration list for PBXNativeTarget "DunnRepairsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B275E7F2C8554CA0013F4B5 /* Debug */,
+				8B275E802C8554CA0013F4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B275E552C8554C80013F4B5 /* DunnRepairs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B275E562C8554C80013F4B5 /* DunnRepairs.xcdatamodel */,
+			);
+			currentVersion = 8B275E562C8554C80013F4B5 /* DunnRepairs.xcdatamodel */;
+			path = DunnRepairs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B275E462C8554C80013F4B5 /* Project object */;
+}

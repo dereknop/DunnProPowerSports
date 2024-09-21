@@ -6,11 +6,12 @@
 //
 
 import SwiftUI
-
+import Firebase
 @main
 struct DunnProPowerSports: App {
     let persistenceController = PersistenceController.shared
-
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
@@ -18,3 +19,12 @@ struct DunnProPowerSports: App {
         }
     }
 }
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication,
+                    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        FirebaseApp.configure()
+        return true
+    }
+}
+
